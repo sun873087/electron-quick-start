@@ -1,6 +1,6 @@
 {
-  "name": "vite-react",
-  "productName": "vite-react",
+  "name": "electron-quick-start",
+  "productName": "electron-quick-start",
   "version": "1.0.0",
   "description": "My Electron application description",
   "main": ".vite/build/main.js",
