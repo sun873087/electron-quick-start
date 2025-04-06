@@ -1,0 +1,61 @@
+.environment-info {
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 16px;
+  margin: 16px 0;
+  max-width: 600px;
+}
+
+.environment-info h3 {
+  color: #333;
+  margin-top: 0;
+  margin-bottom: 12px;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 8px;
+}
+
+.environment-info ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0 0 16px 0;
+}
+
+.environment-info li {
+  padding: 4px 0;
+}
+
+.status-enabled {
+  color: #2e7d32;
+  font-weight: bold;
+}
+
+.status-disabled {
+  color: #c62828;
+}
+
+/* 調試信息樣式 */
+.debug-info {
+  margin-top: 20px;
+  background-color: #303030;
+  color: #7dcfff;
+  padding: 12px;
+  border-radius: 4px;
+  font-family: monospace;
+}
+
+.debug-info h4 {
+  color: #ff9e64;
+  margin-top: 0;
+}
+
+.debug-info pre {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+
+@media (prefers-color-scheme: dark) {
+  .environment-info {
+    background-color: rgba(255, 255, 255, 0.05);
+  }
+} 

@@ -1,0 +1,37 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Start Vite Dev",
+      "type": "shell",
+      "isBackground": true,
+      "command": "npm",
+      "args": ["start"],
+      "problemMatcher": {
+        "owner": "custom",
+        "pattern": {
+          "regexp": "^$"
+        },
+        "background": {
+          "activeOnStart": true,
+          "beginsPattern": ".*",
+          "endsPattern": "(Electron .+: .*?ready|ready in .*?ms)"
+        }
+      }
+    },
+    {
+      "label": "Package App",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "package"],
+      "problemMatcher": []
+    },
+    {
+      "label": "Make App",
+      "type": "shell",
+      "command": "npm",
+      "args": ["run", "make"],
+      "problemMatcher": []
+    }
+  ]
+} 

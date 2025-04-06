@@ -1,0 +1,25 @@
+.main-layout {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.header {
+  margin-bottom: 2rem;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+.footer {
+  margin-top: 2rem;
+}
+
+.read-the-docs {
+  color: #888;
+} 
